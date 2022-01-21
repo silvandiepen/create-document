@@ -1,6 +1,6 @@
 {
   "name": "@sil/create-document",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create PDFs",
   "main": "dist/index.js",
   "scripts": {
