@@ -39,8 +39,10 @@ const createPdf = async (
   doc.save("Download.pdf");
 };
 
-export const createDocument = async (opts: CDOptions): Promise<CDResult> => {
-  const options = merge(defaultOptions, opts);
+export const createDocument = async (
+  opts: Partial<CDOptions>
+): Promise<CDResult> => {
+  const options: CDOptions = merge(defaultOptions, opts);
   const canvas = await createCanvas(options);
   let pdfData: any;
 
