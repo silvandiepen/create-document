@@ -1,0 +1,27 @@
+{
+  "name": "@sil/create-document",
+  "version": "0.0.1",
+  "description": "Create PDFs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build":"tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create",
+    "document",
+    "pdf",
+    "canvas",
+    "html",
+    "js",
+    "node",
+    "typescript"
+  ],
+  "author": "Sil van Diepen",
+  "license": "MIT",
+  "dependencies": {
+    "html2canvas": "^1.4.0",
+    "jspdf": "^2.5.0",
+    "typescript": "^4.5.5"
+  }
+}
